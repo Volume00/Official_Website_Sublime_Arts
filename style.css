@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: black;
+}
+
+.luna-image {
+    width: 50%;
+    display:block;
+    margin-top: 50;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50;
+    object-fit: cover;
+    border-radius: 15px;
+}
+
+h1 {
+    color: white;
+    font-family: 'Roboto Mono', monospace;
+    font-size: large;
+    text-align: left;
+}
+
+h1:hover{
+    color:rgb(26, 133, 109);
+    /*cursor:pointer;*/
+    transition:ease-in-out 0.5s;
+}
+
+h2 {
+    color: white;
+    font-family: 'Roboto Mono', monospace;
+    font-size:200%;
+    text-align: center;
+    margin-top: 18%;
+    margin-bottom: 18%;
+}
+
+h2:hover{
+    color:rgb(47, 105, 93);
+    /*cursor:pointer;*/
+    font-size: 250%;
+    transition:ease-in-out 5.0s;
+    
+}
+
+h3 {
+    color: white;
+    font-family: 'Roboto Mono', monospace;
+    font-size:larger;
+    text-align: center;
+    margin-top: 20%;
+}
+
+h3:hover{
+    color:rgb(47, 105, 93);
+    /*cursor:pointer;*/
+    transition:ease-in-out 0.5s;
+}
+
+
+p {
+    color: white;
+    font-family: 'Roboto Mono', monospace;
+    font-size: large;
+    text-align: center;
+}
+
+.small-img {
+    width:10%;
+    border: 2.5px solid rgb(180, 56, 160);
+    border-radius: 15px;
+    transition: ease-out 0.3s;
+    display:flexbox;
+    justify-content: space-between;
+    margin: 50px 10px 10px 10px;
+    align-items: center;
+}
+
+.small-img:hover {
+    width: 12%;
+    transition: ease-in-out 0.3s;
+    cursor: pointer;
+}
+
+.luna_image25 {
+    width: 30%;
+    display:block;
+    margin-top: 150;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+    object-fit: cover;
+    border-radius: 15px;
+    border-color: rgb(42, 160, 160);
+}
+
+li {
+    list-style: none;
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    width: 500px;
+    margin: 20px auto;
+    align-items: center;
+}
+
+nav {
+    margin-bottom: 10px;
+}
+
+.nav-item{
+    font-family: 'Delicious Handrawn', cursive;
+    color: white;
+}
+
+.nav-item:hover {
+    color: rgb(186, 128, 240);
+    transition: ease-in-out 0.25s;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+    color:white;
+    text-size-adjust: 100;
+}
